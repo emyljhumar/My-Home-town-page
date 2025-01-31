@@ -1,0 +1,143 @@
+body {
+    font-family: "Inter";
+    text-align: center;
+    color: #FFFFFF;
+    font-size: x-large;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 720px;
+    background: url(images/tagbilaran.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 21px 
+}
+
+#title {
+    background-color: #1D3557;
+    padding: 12px 20px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+#title-desc {
+    font-weight: 600;
+    background-color: #457B9D;
+    padding: 12px 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#center {
+    color: #1D3557;
+    background-color: lightcyan;
+}
+
+#center-title{
+    margin-top: 40px;
+}
+
+#to-do-stack{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px auto;
+}
+
+#visit {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://gttp.images.tshiftcdn.com/384066/x/0/blood-compact-monument-in-bohol.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#to-do-visit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stroll {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://www.marinetraffic.com/getAssetDefaultPhoto/?photo_size=800&asset_id=21995&asset_type_id=1");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#to-do-stroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#discover {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://www.nationalmuseum.gov.ph/wp-content/uploads/2021/09/SLIDESHOW-18-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#to-do-discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 700px;
+}
+
+#guide-img {
+    width: 300px;
+    height: 300px;
+    background: url("images/ABAD 2x2.png");
+    background-size: cover;
+    border: 2px solid #457B9D;
+    border-radius: 10px;
+}
+
+#guide-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#guide-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A8DADC;
+    padding: 20px 40px 20px 40px;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
